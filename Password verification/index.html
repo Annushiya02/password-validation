@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strong Password Validation </title>
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class ="password-input-box">
+        <input type="password" placeholder="Password" class="password-input">
+        <!--Eye tag from font awesome-->
+        <i class="fa-solid fa-eye show-password"></i>
+
+        <div class="password-checklist">
+            <h3 class="checklist-title">Password should be</h3>
+
+            <ul class="checklist">
+                <li class="list-item">At least 8 character long</li>
+                <li class="list-item ">At least 1 number</li>
+                <li class="list-item ">At least 1 lowercase letter</li>
+                <li class="list-item ">At least 1 uppercase letter</li>
+                <li class="list-item">At least 1 special character</li>
+            </ul>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
